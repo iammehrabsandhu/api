@@ -2,8 +2,9 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "api.js",
+  "main": "api.js","type":"module",
   "scripts": {
+    "start":"node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,3 +18,4 @@
     "path": "^0.12.7"
   }
 }
+
